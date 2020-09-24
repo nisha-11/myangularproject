@@ -7,6 +7,10 @@ import { IndexComponent } from './index/index.component';
 import { DisplayProductComponent } from './display-product/display-product.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { WomenComponent } from './women/women.component';
+import { MenComponent } from './men/men.component';
+import { KidsComponent } from './kids/kids.component';
+import { SportsComponent } from './sports/sports.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { RegisterComponent } from './register/register.component';
     IndexComponent,
     DisplayProductComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    WomenComponent,
+    MenComponent,
+    KidsComponent,
+    SportsComponent
   ],
   imports: [
     BrowserModule,
